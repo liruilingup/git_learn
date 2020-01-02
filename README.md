@@ -25,16 +25,20 @@ git commit -m "add a file"
 
 pycharm使用git：https://www.cnblogs.com/xiao-apple36/p/9084985.html
 
-
-
 origin是默认的远程仓库名称
 
 查看远程仓库信息:git remote -v
+
 创建分支:git branch branchname
+
 查看分支:git branch
+
 把本地的某个 branch push 到远程仓库:git push origin <branch name>
+
 获取远程修改到本地:git pull
+
 本地创建并切换到远程分支对应的分支
+
 当我们在github中创建了一个新的分支originbranch后，本地创建并切换到远程分支对应的分支时我们会输入以下命令：
 git remote update
 git fetch
